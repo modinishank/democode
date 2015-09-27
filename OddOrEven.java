@@ -12,8 +12,8 @@ class OddOrEven
       x = in.nextInt();
  
       if ( x % 2 == 0 )
-         System.out.println("Even number.");
+         System.out.println("Even number = " + x);
       else
-         System.out.println("Odd number.");
+         System.out.println("Odd number = " + x);
    }
 }
